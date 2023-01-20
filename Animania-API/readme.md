@@ -1,4 +1,7 @@
 
+<b> Special Thanks to <a href="https://github.com/riimuru/gogoanime">GoGoAnime API</a> for providing the library of animes </b>
+
+
 <h1> Table of Contents </h1>
 
 - [Installation](#installation)
@@ -7,11 +10,10 @@
   - [Get Popular Anime](#get-popular-anime)
   - [Get Anime Search](#get-anime-search)
   - [Get Anime Movies](#get-anime-movies)
-  - [Get Top Airing](#get-top-airing)
   - [Get Anime Genres](#get-anime-genres)
     - [Genres](#genres)
   - [Get Anime Details](#get-anime-details)
-  - [Get Streaming URLs](#get-streaming-urls)
+  - [Get Streaming URLs](#get-streaming-url)
     - [VIDCDN](#vidcdn)
     - [StreamSB](#streamsb)
     - [Download](#download)
@@ -470,4 +472,3 @@ Output >>
 
 
 <br />
-<b> Special Thanks to <a href="https://github.com/riimuru/gogoanime">GoGoAnime API</a> for providing the library of animes </b>
