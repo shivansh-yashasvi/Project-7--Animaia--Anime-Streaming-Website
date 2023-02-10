@@ -31,7 +31,7 @@ function App() {
     try {
       setLoading(true);
       const Data = await axios.get(
-        `https://gogoanime.consumet.org/recent-release?page=${id}`
+        `https://gogoanime.consumet.stream/recent-release?page=${id}`
       );
       setRecent((recent) => [...recent, ...Data.data]);
       setLoading(false);
@@ -44,7 +44,7 @@ function App() {
     try {
       setLoading(true);
       const propu = await axios.get(
-        `https://gogoanime.consumet.org/popular?page=${id}`
+        `https://gogoanime.consumet.stream/popular?page=${id}`
       );
       setPopular((popular) => [...popular, ...propu.data]);
       setLoading(false);
@@ -57,7 +57,7 @@ function App() {
     try {
       setLoading(true);
       const Data = await axios.get(
-        `https://gogoanime.consumet.org/recent-release?type=2&page=${id}`
+        `https://gogoanime.consumet.stream/recent-release?type=2&page=${id}`
       );
       setDub((dub) => [...dub, ...Data.data]);
       setLoading(false);
@@ -80,7 +80,7 @@ function App() {
   // Search Bar function
   const handelChanges = async (val) => {
     const searchRes = await axios
-      .get(`https://gogoanime.consumet.org/search?keyw=${val}`)
+      .get(`https://gogoanime.consumet.stream/search?keyw=${val}`)
       .catch((err) => "search Error");
     if (val === "") {
       setSearchResult(null);
